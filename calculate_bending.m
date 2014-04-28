@@ -16,5 +16,5 @@ maxTr = max([Tra Trb Trc Trd]);
 electrode1 = electrode';
 indicesDesMax = find( electrode1(2,:) == material );
 Min = min([0.4*electrode1(4,indicesDesMax) 0.3*electrode1(3,indicesDesMax)]);
-n=Min/maxTr
+n=Min/maxTr;
 end
